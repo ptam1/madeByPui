@@ -1,0 +1,22 @@
+.carousel {
+    opacity: 0.93;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+}
+
+.imageCarousel {
+    height: 50vh;
+    width: 110vh;
+    border-radius: 25px;
+}
+
+.button {
+    height: 60px;
+    opacity: .9;
+    text-align: center;
+    top: 150px;
+    right: 615px;
+    position: absolute;
+    z-index: 2;
+}

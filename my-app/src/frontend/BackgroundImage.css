@@ -1,0 +1,18 @@
+.backgroundImage {
+    min-height: 95%;
+    min-width: 1024px;
+    width: 100%;
+    height: 95%;
+    position: fixed;
+    top: 55px;
+    left: 0;
+}
+
+#backgroundColor {
+    background-color: #e5cdce;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

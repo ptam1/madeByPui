@@ -1,0 +1,60 @@
+#titleProperties {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.firstParagraphPosition {
+    position: absolute;
+}
+
+.secondParagraphPosition {
+    position: absolute;
+}
+
+.firstParagraphProperties {
+    position: fixed;
+    margin-top: 15vh;
+    margin-left: 8vh;
+    width: 700px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    opacity: .50;
+}
+
+.secondParagraphProperties {
+    position: fixed;
+    margin-top: 15vh;
+    margin-left: 105vh;
+    width: 700px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    opacity: .50;
+}
+
+#firstTitlePosition {
+    position: absolute;
+    margin-top: 4vh;
+    margin-left: 30vh;
+}
+
+#secondTitlePosition {
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 125vh;
+}
+
+#firstTitleIcon {
+    position: fixed;
+    margin-top: 4vh;
+    margin-left: 80vh;
+}
+
+#secondTitleIcon {
+    position: fixed;
+    margin-top: 3vh;
+    margin-left: 157vh;
+}

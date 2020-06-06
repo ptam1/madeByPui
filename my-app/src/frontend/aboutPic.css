@@ -1,0 +1,27 @@
+.imageProperties {
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 25px;
+    opacity: .75;
+    width: 90vh;
+}
+
+.paragraphProperties{
+    margin-top: -50vh;
+    margin-left: 105vh;
+    width: 700px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    opacity: .50;
+}
+
+#buttonProperties {
+    margin-left: 140vh;  
+}
+
+.titleProperties {
+    margin-top: 40px;
+    text-align: center;
+}

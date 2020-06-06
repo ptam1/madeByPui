@@ -1,0 +1,22 @@
+#titleProperties {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.clientText {
+	margin-top: 5vh;
+	font-size: 20px;
+	text-align: center;
+}
+
+.carousel {
+	text-align: center;
+}
+
+.carousel-caption {
+	position: relative;
+	left: auto;
+	right: auto;
+    font-size: 20px;
+	color: black;
+}
