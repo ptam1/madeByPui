@@ -1,6 +1,5 @@
 ---
 deployment:
- tasks:
- - export DEPLOYPATH=/home/user/public_html/
- - /bin/cp index.html $DEPLOYPATH
- - /bin/cp style.css $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/Users/Pui Tam/Desktop/GitHub Projects/madeByPui/my-app
+    - /bin/cp -R my-app $DEPLOYPATH
