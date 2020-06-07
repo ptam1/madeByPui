@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/madebyr2/public_html/
+    - export DEPLOYPATH=/home1/madebyr2/public_html/madeByPui
     - /bin/cp -R my-app $DEPLOYPATH
