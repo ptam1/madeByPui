@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home1/madebyr2/public_html
-    - /bin/cp -R /home1/madebyr2/public_html/madeByPui $DEPLOYPATH
+    - /bin/cp -R /home1/madebyr2/madeByPui $DEPLOYPATH
