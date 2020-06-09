@@ -10,8 +10,7 @@ import Container from 'react-bootstrap/Container';
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                
+            <div className="App">               
                 <NavBar displaytext=" " />
                 <Container fluid>
                     <HomePageSlide display />
