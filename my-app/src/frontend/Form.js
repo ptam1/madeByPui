@@ -22,7 +22,7 @@ export default class form extends Component {
                     <Form.Label className="labelSize"><b>Project Description</b></Form.Label>
                     <Form.Control className="formWidth" size="lg" as="textarea" rows="3" />
                     <Form.Text className="text-muted">
-                        Please give as much detail as possible, including features, budget, and project time.
+                        Please include as much detail as possible, including features, budget, and project time.
                         </Form.Text>
                 </Form.Group>
 
