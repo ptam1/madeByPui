@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './serviceWorker.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route } from 'react-router-dom';
-import App from './App';
+import App from './App.js';
 import About from './frontend/about.js';
 import Services from './frontend/Services.js';
 import Portfolio from './frontend/Portfolio.js';
