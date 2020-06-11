@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import './Portfolio.css';
 import MariasCleaningServiceSlide from './MariasCleaningServiceSlide.js';
 
-export default class portfolio extends Component {
+export default class Portfolio extends Component {
     render() {
         return (
             <Container fluid>

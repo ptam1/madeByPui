@@ -5,7 +5,7 @@ import './BackgroundImage.css';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
-export default class about extends Component {
+export default class About extends Component {
     render() {
         return (
             <Container fluid>

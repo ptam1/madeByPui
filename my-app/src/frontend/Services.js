@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import './Services.css';
 
 
-export default class services extends Component {
+export default class Services extends Component {
     render() {
         return (
             <Container fluid>
