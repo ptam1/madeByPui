@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import './Contact.css';
 import Form from './Form.js';
 
-export default class contact extends Component {
+export default class Contact extends Component {
     render() {
         return (
             <Container fluid>
