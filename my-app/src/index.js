@@ -12,7 +12,7 @@ import Contact from './frontend/Contact.js';
 
 ReactDOM.render(( 
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/">
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
