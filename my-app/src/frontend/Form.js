@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import './Form.css';
 
-export default class Form extends Component {
+export default class ContactForm extends Component {
     render() {
         return (
          <div class="row justify-content-center">
