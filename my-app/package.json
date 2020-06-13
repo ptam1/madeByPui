@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "/public_html/madeByPui/my-app",
+  "homepage": "https://www.madebypui.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
