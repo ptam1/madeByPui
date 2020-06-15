@@ -25,7 +25,7 @@ import './Portfolio.css';
                 <Carousel.Item>
                     <img
                      className="imageCarousel"
-                     src="/After HomePage.jpg"
+                     src="/After HomePage.JPG"
                     alt="After - Home Page"
                     />
                         <Carousel.Caption className="carousel-caption">
@@ -37,7 +37,7 @@ import './Portfolio.css';
                 <Carousel.Item>
                     <img
                     className="imageCarousel"
-                    src="/Services page.jpg"
+                    src="/Services page.JPG"
                     alt="Before - Services Page"
                     />
                         <Carousel.Caption className="carousel-caption">
@@ -49,7 +49,7 @@ import './Portfolio.css';
                 <Carousel.Item>
                     <img
                     className="imageCarousel"
-                    src="/After Services.jpg"
+                    src="/After Services.JPG"
                     alt="After - Services Page"
                     />
                         <Carousel.Caption className="carousel-caption">
@@ -60,7 +60,7 @@ import './Portfolio.css';
                 <Carousel.Item>
                     <img
                     className="imageCarousel"
-                    src="/After Services2.jpg"
+                    src="/After Services2.JPG"
                     alt="After - Services Page"
                     />
                         <Carousel.Caption className="carousel-caption">
@@ -71,7 +71,7 @@ import './Portfolio.css';
                 <Carousel.Item>
                     <img
                     className="imageCarousel"
-                    src="/After Services3.jpg"
+                    src="/After Services3.JPG"
                     alt="After - Services Page"
                     />
                         <Carousel.Caption className="carousel-caption">
@@ -83,7 +83,7 @@ import './Portfolio.css';
                 <Carousel.Item>
                 <img
                 className="imageCarousel"
-                src="/Clients page.jpg"
+                src="/Clients page.JPG"
                 alt="Before - Clients Page"
                 />
                     <Carousel.Caption className="carousel-caption">
@@ -95,7 +95,7 @@ import './Portfolio.css';
                 <Carousel.Item>
                 <img
                 className="imageCarousel"
-                src="/After Clients.jpg"
+                src="/After Clients.JPG"
                 alt="After - Clients Page"
                 />
                     <Carousel.Caption className="carousel-caption">
@@ -106,7 +106,7 @@ import './Portfolio.css';
                 <Carousel.Item>
                 <img
                 className="imageCarousel"
-                src="/After Contact.jpg"
+                src="/After Contact.JPG"
                 alt="Contact Page"
                 />
                     <Carousel.Caption className="carousel-caption">
