@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './HomePageSlide.css';
 import Carousel from 'react-bootstrap/Carousel';
-import CarouselCaption from 'react-bootstrap/CarouselCaption';
 import './Portfolio.css';
 
     export default class MariasCleaningServiceSlide extends Component {
