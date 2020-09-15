@@ -1,7 +1,14 @@
-#navFont {
+.navBar {
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+
+#navHeader1 {
     font-family: 'Lobster';
 }
-#navTextAlign{
-    text-align: left;
-    width: 60%;
+
+#navHeader2 {
+    left: 130px;
+    position: absolute;
 }

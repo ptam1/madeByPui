@@ -11,7 +11,7 @@ export default class Contact extends Component {
                 <div id="backgroundColor">
                     <NavBar displaytext=" " />
 
-                    <div id="titleProperties">
+                    <div className="titleProperties">
                         <h1> Let's Talk About Your Next Project! </h1>
                     </div> 
 

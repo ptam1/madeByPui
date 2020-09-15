@@ -1,21 +1,24 @@
-#titleProperties {
-    margin-top: 40px;
+.servicesTitleProperties {
+    margin-top: 13vh;
     text-align: center;
 }
 
 .firstParagraphPosition {
-    position: absolute;
+    width: 100%;
+    position: fixed;
 }
 
 .secondParagraphPosition {
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: fixed;
 }
 
 .firstParagraphProperties {
-    position: fixed;
-    margin-top: 15vh;
-    margin-left: 8vh;
-    width: 700px;
+    margin-top: 4vh;
+    margin-left: 10vh;
+    width: 90vh;
     text-align: center;
     border: 2px solid grey;
     border-radius: 5px;
@@ -24,10 +27,9 @@
 }
 
 .secondParagraphProperties {
-    position: fixed;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin-left: 105vh;
-    width: 700px;
+    width: 90vh;
     text-align: center;
     border: 2px solid grey;
     border-radius: 5px;
@@ -36,25 +38,106 @@
 }
 
 #firstTitlePosition {
-    position: absolute;
-    margin-top: 4vh;
+    white-space: nowrap;
+    display: block;
+    margin-top: 7vh;
     margin-left: 30vh;
+    position: relative;
 }
 
 #secondTitlePosition {
-    position: absolute;
-    margin-top: 3vh;
-    margin-left: 125vh;
+    white-space: nowrap;
+    display: block;
+    margin-top: -43vh;
+    margin-left: 125vh
 }
 
 #firstTitleIcon {
-    position: fixed;
-    margin-top: 4vh;
+    white-space: nowrap;
+    display: inline-block;
+    display: block;
+    margin-top: -7vh;
     margin-left: 80vh;
 }
 
 #secondTitleIcon {
-    position: fixed;
-    margin-top: 3vh;
+    display: block;
+    margin-top: -7vh;
     margin-left: 157vh;
+}
+
+
+/*smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media only screen and (min-width: 320px) {
+    .servicesTitleProperties {
+        margin-top: 13vh;
+        text-align: center;
+    }
+
+    .firstParagraphPosition {
+        width: 100%;
+        position: fixed;
+    }
+
+    .secondParagraphPosition {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        position: fixed;
+    }
+
+    .firstParagraphProperties {
+        white-space: initial;
+        margin-top: 4vh;
+        margin-left: 5vw;
+        width: 90vw;
+        text-align: center;
+        border: 2px solid grey;
+        border-radius: 5px;
+        background-color: white;
+        opacity: .50;
+    }
+
+    .secondParagraphProperties {
+        white-space: initial;
+        margin-top: 4vh;
+        margin-left: 5vw;
+        width: 90vw;
+        text-align: center;
+        border: 2px solid grey;
+        border-radius: 5px;
+        background-color: white;
+        opacity: .50;
+    }
+
+    #firstTitlePosition {
+        white-space: nowrap;
+        font-size: xx-large;
+        display: block;
+        margin-top: 7vh;
+        margin-left: 5vw;
+        position: relative;
+    }
+
+    #secondTitlePosition {
+        white-space: nowrap;
+        font-size: xx-large;
+        display: block;
+        margin-top: 5vh;
+        margin-left: 20vw;
+    }
+
+    #firstTitleIcon {
+        white-space: nowrap;
+        display: inline-block;
+        display: block;
+        margin-top: -6.5vh;
+        margin-left: 85vw;
+    }
+
+    #secondTitleIcon {
+        display: block;
+        margin-top: -6.5vh;
+        margin-left: 71vw;
+    }
 }

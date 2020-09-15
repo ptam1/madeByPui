@@ -12,22 +12,22 @@ import './Portfolio.css';
 
                  <Carousel.Item>
                     <img
-                    className="imageCarousel"
+                    class="img-fluid"
                     src="/Home Page.JPG"
                     alt="Before - Home Page"
                     />
-                        <Carousel.Caption className="carousel-caption">
+                        <Carousel.Caption class="carousel-caption">
                             <p><b>Before - Home Page</b></p>
                         </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img
-                     className="imageCarousel"
-                     src="/After HomePage.JPG"
+                    class="img-fluid"
+                    src="/After HomePage.JPG"
                     alt="After - Home Page"
                     />
-                        <Carousel.Caption className="carousel-caption">
+                        <Carousel.Caption class="carousel-caption">
                             <p><b>After - Home Page</b></p>
                         </Carousel.Caption>
                 </Carousel.Item>
@@ -35,11 +35,11 @@ import './Portfolio.css';
 
                 <Carousel.Item>
                     <img
-                    className="imageCarousel"
+                    class="img-fluid"
                     src="/Services page.JPG"
                     alt="Before - Services Page"
                     />
-                        <Carousel.Caption className="carousel-caption">
+                        <Carousel.Caption class="carousel-caption">
                             <p><b>Before - Services Page</b></p>
                         </Carousel.Caption>
                 </Carousel.Item>
@@ -47,33 +47,33 @@ import './Portfolio.css';
 
                 <Carousel.Item>
                     <img
-                    className="imageCarousel"
+                    class="img-fluid"
                     src="/After Services.JPG"
                     alt="After - Services Page"
                     />
-                        <Carousel.Caption className="carousel-caption">
+                        <Carousel.Caption class="carousel-caption">
                             <p><b>After - Services Page</b></p>
                        </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img
-                    className="imageCarousel"
+                    class="img-fluid"
                     src="/After Services2.JPG"
                     alt="After - Services Page"
                     />
-                        <Carousel.Caption className="carousel-caption">
+                        <Carousel.Caption class="carousel-caption">
                              <p><b>After - Home Page</b></p>
                          </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img
-                    className="imageCarousel"
+                    class="img-fluid"
                     src="/After Services3.JPG"
                     alt="After - Services Page"
                     />
-                        <Carousel.Caption className="carousel-caption">
+                        <Carousel.Caption class="carousel-caption">
                              <p><b>After - Home Page</b></p>
                          </Carousel.Caption>
                 </Carousel.Item>
@@ -81,11 +81,11 @@ import './Portfolio.css';
 
                 <Carousel.Item>
                 <img
-                className="imageCarousel"
+                class="img-fluid"
                 src="/Clients page.JPG"
                 alt="Before - Clients Page"
                 />
-                    <Carousel.Caption className="carousel-caption">
+                    <Carousel.Caption class="carousel-caption">
                         <p><b>Before - Clients Page</b></p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -93,22 +93,22 @@ import './Portfolio.css';
 
                 <Carousel.Item>
                 <img
-                className="imageCarousel"
+                class="img-fluid"
                 src="/After Clients.JPG"
                 alt="After - Clients Page"
                 />
-                    <Carousel.Caption className="carousel-caption">
+                    <Carousel.Caption class="carousel-caption">
                         <p><b>After - Clients Page</b></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                 <img
-                className="imageCarousel"
+                class="img-fluid"
                 src="/After Contact.JPG"
                 alt="Contact Page"
                 />
-                    <Carousel.Caption className="carousel-caption">
+                    <Carousel.Caption class="carousel-caption">
                         <p><b>Contact Page</b></p>
                      </Carousel.Caption>
                 </Carousel.Item>
