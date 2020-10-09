@@ -67,30 +67,22 @@
         background: #B0C4DE;
         border: none;
     }
-
-
-
 }
-@media only screen and (min-width:1025px)
-{
-    .titleProperties {
-        white-space: nowrap;
-        margin-top: 55%;
-        text-align: center;
-    }
 
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:600px) {
     .imageProperties {
-        margin-top: 10vh;
-        margin-left: 5vw;
+        margin-top: 5%;
+        margin-left: 5%;
         border-radius: 25px;
         opacity: .75;
-        width: 90vh;
+        width: 90%;
     }
 
     .paragraphProperties {
-        margin-top: -50vh;
-        margin-left: 105vh;
-        width: 90vh;
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
         text-align: center;
         border: 2px solid grey;
         border-radius: 5px;
@@ -100,9 +92,15 @@
 
     #buttonProperties {
         white-space: nowrap;
-        margin-left: 140vh;
+        margin-top: 5%;
+        margin-left: 40%;
         color: white;
         background: #B0C4DE;
         border: none;
+    }
+
+    .titleProperties {
+        white-space: nowrap;
+        margin-top: 13%;
     }
 }
