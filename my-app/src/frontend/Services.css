@@ -70,6 +70,7 @@
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media only screen and (min-width: 320px) {
     .servicesTitleProperties {
+        display: none;
         margin-top: 13%;
         margin-left: 10%;
     }
@@ -138,6 +139,10 @@
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 @media (min-width:600px) {
     #firstTitlePosition {
-        display:none;
+        white-space: nowrap;
+        font-size: x-large;
+        display: block;
+        margin: 0%;
+        text-align: center;
     }
 }
