@@ -138,6 +138,10 @@
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 @media (min-width:600px) {
+	.titleProperties {
+		margin-top: 15%;
+	}
+
 	.row {
 		margin-left: 10%;
 		margin-top: 5%;
