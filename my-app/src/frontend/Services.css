@@ -138,10 +138,6 @@
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 @media (min-width:600px) {
     #firstTitlePosition {
-        white-space: nowrap;
-        font-size: x-large;
-        display: block;
-        margin: 0%;
-        text-align: center;
+        display:none;
     }
 }
