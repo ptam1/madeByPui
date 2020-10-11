@@ -43,9 +43,6 @@ export default class Services extends Component {
                             <br />  from a creative perspective. At the end of the project, you will recieve a redesigned
                             <br />  website that you can feel confident about having and sharing. I have experience
                             <br />  working with local Atlanta businesses in redesigning their existing websites.
-                            <li>    Competitor Wesbite Design Research </li>
-                            <li>    Tempate Setup </li>
-                            <li>    App Research, Installation, and Setup </li>
                             </b>
                     </p> 
                     </div>
