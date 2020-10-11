@@ -29,8 +29,7 @@ export default class Services extends Component {
                              <br /> have an existing website, I can modify or update it. I test each feature of the website, so that your website is bug free. I have over a year's experience in testing software.  
                              <br /> I will work with you throughout the whole process from beginning to end to ensure that what I develop is what you envisioned.
                              <br />
-                             <br /><center>I have experience with the following languages: </center>
-                              <li> Java, ReactJS, NodeJS, SQL, PostgresSQL </li>
+                             <br />
                              </b>
                         </p>
                     
