@@ -25,7 +25,7 @@ export default class Services extends Component {
                        
                         <p className="firstParagraphProperties">
                              <br />
-                             <b>    I develop websites. Each website is unqiuely tailored to your vision. If you
+                             <b>    I develop unqiue websites tailored to each client's  vision. If you
                              <br /> have an existing website, I can modify or update it. I test each feature of the website to ensure that your website is bug free. I have over a year's experience in testing software.
                             <br /> I will work with you throughout the whole process from beginning to end to ensure that what I develop is what you envisioned.
                              <br />
