@@ -150,6 +150,18 @@
 }
 
 
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+	.titleProperties {
+		margin-top: 90%;
+	}
+
+	.row {
+		margin-left: 10%;
+		margin-top: 5%;
+		width: 90%;
+	}
+}
 
 
 

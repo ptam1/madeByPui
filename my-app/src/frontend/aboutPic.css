@@ -98,7 +98,7 @@
 
     #buttonProperties {
         white-space: nowrap;
-        margin-top: 0%;
+        margin-top: 2%;
         margin-left: 70%;
         color: white;
         background: #B0C4DE;
@@ -111,3 +111,5 @@
         text-align: center;
     }
 }
+
+

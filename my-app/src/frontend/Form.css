@@ -2,28 +2,7 @@
 	font-size: 20px;
 }
 
-#form {
-	margin-top: 5vh;
-}
 
-#tooltipPosition {	
-	margin-left: 36vw;
-}
-
-#nameField {
-	position: relative;
-}
-
-#emailField {
-	position: relative;
-}
-
-#messageField {
-	position: relative;
-}
-.formWidth {
-	width: 90vh;
-}
 
 #button {
 	width: 25vh;
@@ -74,5 +53,39 @@
 	#messageField {
 		margin-left: 5%;
 		position: relative;
+	}
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+	.formWidth {
+		width: 100%;
+	}
+
+	#nameField {
+		margin-left: -35%;
+		position: relative;
+	}
+
+	#emailField {
+		margin-left: -35%;
+		position: relative;
+	}
+
+	#messageField {
+		margin-left: -35%;
+		position: relative;
+	}
+
+	#button {
+		margin-left: -35%;
+	}
+
+	#tooltipPosition {
+		margin-left: 80%;
+	}
+
+	#form {
+		margin-top: 5%;
 	}
 }
