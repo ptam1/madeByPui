@@ -88,7 +88,7 @@
 
     .secondParagraphProperties {
         margin-top: 2.5%;
-        margin-left: 105vh;
+        margin-left: 54%;
         width: 90vh;
         text-align: center;
         border: 2px solid grey;
@@ -107,7 +107,7 @@
     #secondTitlePosition {
         white-space: nowrap;
         display: block;
-        margin-top: -14%;
+        margin-top: -17%;
         margin-left: 65%;
     }
 
@@ -121,7 +121,7 @@
 
     #secondTitleIcon {
         display: block;
-        margin-top: -17%;
-        margin-left: 157vh;
+        margin-top: -17.5%;
+        margin-left: 80%;
     }
 }
