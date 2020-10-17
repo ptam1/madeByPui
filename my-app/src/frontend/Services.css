@@ -71,10 +71,25 @@
 
     .servicesTitleProperties {
         margin-top: 2%;
-        margin-left: 5%;
+        margin-left: -10%;
         text-align: center;
     }
 
+    p {
+        width: 40%;
+        text-align: center;
+        border: 2px solid grey;
+        border-radius: 5px;
+        background-color: white;
+        opacity: .50;
+        margin: 0 5%;
+     }
+
+    .wrap {
+        display: inline-block;
+    }
+   
+/**
     .firstParagraphProperties {
         margin-top: 2%;
         margin-left: 5%;
@@ -96,7 +111,7 @@
         background-color: white;
         opacity: .50;
     }
-
+*/
     #firstTitlePosition {
         white-space: nowrap;
         display: block;

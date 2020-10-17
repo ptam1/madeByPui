@@ -12,20 +12,15 @@ export default class About extends Component {
             <div id="backgroundColor">
                     <NavBar displaytext=" " />
 
-                    <div className="titleProperties">
-                        <h1> ABOUT THE FREELANCE DEVELOPER </h1>
-                    </div>
+                    
+                    <h1 id="titleProperties"> ABOUT THE FREELANCE DEVELOPER </h1>
+                   
 
-                    <img className="imageProperties" src={"/aboutPic.jpg"} alt={"image"} />
+                    <img class="imageProperties" src={"/aboutPic.jpg"} alt={"image"} />
 
-                    <p className="paragraphProperties">
-                    <br />
-                    <b>    Hi! My name is Pui! 
-                    <br /> I am a freelance developer based in Atlanta, GA with a Master's degree in Software Engineering.      I have over one year's experience in Software QA Engineering.
-                    <br /> I launched my own website services, because I want to help people fulfill their dreams by            creating their perfect website or software product on an affordable budget.
-                    <br /> If you would like to know more about what I can do for you or want a quote, let's have a chat! 
-                    <br />
-                    <br />
+                    <p class="paragraphProperties">
+                    <b> Hi! My name is Pui! 
+                        I am a freelance developer based in Atlanta, GA with a Master's degree in Software Engineering and experienced in software quality assurance. I have experience working with local Atlanta businesses in setting up and redesigning their website. I launched my own website services, because I want to help people fulfill their dreams by creating their perfect website or software product on an affordable budget. If you would like to know more about what I can do for you or want a quote, let's have a chat! 
                     </b>
                     </p>
                     <Button id="buttonProperties" href="/contact"> <b> Let's Have A Chat! </b> </Button>

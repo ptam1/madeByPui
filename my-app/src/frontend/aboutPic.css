@@ -3,30 +3,29 @@
 /*smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media only screen and (min-width: 320px) 
 {
-    .titleProperties {
-        white-space: initial;
-        margin-top: 60%;
+    #titleProperties {
+        white-space: normal;
+        margin-top: 120%;
         text-align: center;
     }
 
     .imageProperties {
-        margin-top: 5vh;
-        margin-left: 5vw;
+        margin-top: -170%;
+        margin-left: 5%;
         border-radius: 25px;
         opacity: .75;
         width: 90vw;
     }
 
     .paragraphProperties {
-        white-space: initial;
-        margin-top: 5vh;
-        margin-left: 5vw;
+        white-space: normal;
+        margin-top: 5%;
+        margin-left: 5%;
         width: 90vw;
         text-align: center;
-        border: 2px solid grey;
-        border-radius: 5px;
-        background-color: white;
-        opacity: .50;
+        border-style: none;
+        background: none;
+        color: gray;
     }
 
     #buttonProperties {
@@ -40,6 +39,12 @@
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 @media (min-width:600px) {
+    #titleProperties {
+        white-space: normal;
+        margin-top: 15%;
+        margin-left: 6%;
+    }
+
     .imageProperties {
         margin-top: 5%;
         margin-left: 5%;
@@ -49,14 +54,14 @@
     }
 
     .paragraphProperties {
-        margin-top: 5%;
+        white-space: normal;
+        margin-top: 40%;
         margin-left: 5%;
-        width: 90%;
+        width: 90vw;
         text-align: center;
-        border: 2px solid grey;
-        border-radius: 5px;
-        background-color: white;
-        opacity: .50;
+        border-style: none;
+        background: none;
+        color: gray;
     }
 
     #buttonProperties {
@@ -68,17 +73,21 @@
         border: none;
     }
 
-    .titleProperties {
-        white-space: nowrap;
-        margin-top: 13%;
-    }
+
 }
 
 
 /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) {
+
+    #titleProperties {
+        white-space: normal;
+        margin-top: 15%;
+        margin-left: 50%;
+    }
+
     .imageProperties {
-        margin-top: 5%;
+        margin-top: -7%;
         margin-left: 5%;
         border-radius: 25px;
         opacity: .75;
@@ -86,14 +95,13 @@
     }
 
     .paragraphProperties {
-        margin-top: -25%;
-        margin-left: 52%;
+        white-space: normal;
+        margin-top: -15%;
+        margin-left: 53%;
         width: 45%;
         text-align: center;
-        border: 2px solid grey;
-        border-radius: 5px;
-        background-color: white;
-        opacity: .50;
+        border-style: none;
+        background: none;
     }
 
     #buttonProperties {
@@ -105,11 +113,6 @@
         border: none;
     }
 
-    .titleProperties {
-        white-space: nowrap;
-        margin-top: 13%;
-        text-align: center;
-    }
 }
 
 
