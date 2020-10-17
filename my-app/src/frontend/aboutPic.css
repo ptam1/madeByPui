@@ -1,118 +1,105 @@
+.paragraphProperties {
+    color: gray;
 
-
-/*smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-@media only screen and (min-width: 320px) 
-{
-    #titleProperties {
-        white-space: normal;
-        margin-top: 110%;
-        text-align: center;
-    }
-
-    .imageProperties {
-        margin-top: -180%;
-        margin-left: 5%;
-        border-radius: 25px;
-        opacity: .75;
-        width: 90vw;
-    }
-
-    .paragraphProperties {
-        white-space: normal;
-        margin-top: 5%;
-        margin-left: 5%;
-        width: 90vw;
-        text-align: center;
-        border-style: none;
-        background: none;
-        color: gray;
-    }
-
-    #buttonProperties {
-        white-space: nowrap;
-        margin-left: 28vw;
-        color: white;
-        background: #B0C4DE;
-        border: none;
-    }
+    text-align: center;
+    border-style: none;
+    background: none;
 }
+    /*smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    @media only screen and (min-width: 320px) {
+        #titleProperties {
+            white-space: normal;
+            margin-top: 100%;
+            text-align: center;
+        }
 
-/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-@media (min-width:600px) {
-    #titleProperties {
-        white-space: normal;
-        margin-top: 15%;
-        margin-left: 6%;
+        .imageProperties {
+            margin-top:  -160%;
+            margin-left: 5%;
+            border-radius: 25px;
+            opacity: .75;
+            width: 90vw;
+        }
+
+        .paragraphProperties {
+            white-space: normal;
+            margin-top: 5%;
+            margin-left: 5%;
+            width: 90vw;
+        }
+
+        #buttonProperties {
+            white-space: nowrap;
+            margin-left: 28vw;
+            color: white;
+            background: #B0C4DE;
+            border: none;
+        }
     }
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    @media (min-width:600px) {
+        #titleProperties {
+            white-space: normal;
+            margin-top: 15%;
+            margin-left: 6%;
+        }
 
-    .imageProperties {
-        margin-top: 5%;
-        margin-left: 5%;
-        border-radius: 25px;
-        opacity: .75;
-        width: 90%;
+        .imageProperties {
+            margin-top: 10%;
+            margin-left: 5%;
+            border-radius: 25px;
+            opacity: .75;
+            width: 90%;
+        }
+
+        .paragraphProperties {
+            white-space: normal;
+            margin-top: 10%;
+            margin-left: 5%;
+            width: 90vw;
+        }
+
+        #buttonProperties {
+            white-space: nowrap;
+            margin-top: 5%;
+            margin-left: 40%;
+            color: white;
+            background: #B0C4DE;
+            border: none;
+        }
     }
+    /* big landscape tablets, laptops, and desktops */
+    @media (min-width:1025px) {
 
-    .paragraphProperties {
-        white-space: normal;
-        margin-top: 20%;
-        margin-left: 5%;
-        width: 90vw;
-        text-align: center;
-        border-style: none;
-        background: none;
-        color: gray;
-    }   
+        #titleProperties {
+            white-space: normal;
+            margin-top: 15%;
+            margin-left: 50%;
+        }
 
-    #buttonProperties {
-        white-space: nowrap;
-        margin-top: 5%;
-        margin-left: 40%;
-        color: white;
-        background: #B0C4DE;
-        border: none;
+        .imageProperties {
+            margin-top: -7%;
+            margin-left: 5%;
+            border-radius: 25px;
+            opacity: .75;
+            width: 45%;
+        }
+
+        .paragraphProperties {
+            white-space: normal;
+            margin-top: -18%;
+            margin-left: 53%;
+            width: 45%;
+        }
+
+        #buttonProperties {
+            white-space: nowrap;
+            margin-top: 2%;
+            margin-left: 70%;
+            color: white;
+            background: #B0C4DE;
+            border: none;
+        }
     }
-
-
-}
-
-
-/* big landscape tablets, laptops, and desktops */
-@media (min-width:1025px) {
-
-    #titleProperties {
-        white-space: normal;
-        margin-top: 15%;
-        margin-left: 50%;
-    }
-
-    .imageProperties {
-        margin-top: -7%;
-        margin-left: 5%;
-        border-radius: 25px;
-        opacity: .75;
-        width: 45%;
-    }
-
-    .paragraphProperties {
-        white-space: normal;
-        margin-top: -15%;
-        margin-left: 53%;
-        width: 45%;
-        text-align: center;
-        border-style: none;
-        background: none;
-    }
-
-    #buttonProperties {
-        white-space: nowrap;
-        margin-top: 2%;
-        margin-left: 70%;
-        color: white;
-        background: #B0C4DE;
-        border: none;
-    }
-
-}
 
 
