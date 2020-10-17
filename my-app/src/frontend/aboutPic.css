@@ -5,12 +5,12 @@
 {
     #titleProperties {
         white-space: normal;
-        margin-top: 120%;
+        margin-top: 110%;
         text-align: center;
     }
 
     .imageProperties {
-        margin-top: -170%;
+        margin-top: -180%;
         margin-left: 5%;
         border-radius: 25px;
         opacity: .75;
@@ -55,14 +55,14 @@
 
     .paragraphProperties {
         white-space: normal;
-        margin-top: 40%;
+        margin-top: 20%;
         margin-left: 5%;
         width: 90vw;
         text-align: center;
         border-style: none;
         background: none;
         color: gray;
-    }
+    }   
 
     #buttonProperties {
         white-space: nowrap;
