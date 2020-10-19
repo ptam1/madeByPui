@@ -1,6 +1,5 @@
 .paragraphProperties {
     color: gray;
-
     text-align: center;
     border-style: none;
     background: none;
@@ -40,7 +39,7 @@
     @media (min-width:600px) {
         #titleProperties {
             white-space: normal;
-            margin-top: 15%;
+            margin-top: 10%;
             margin-left: 6%;
         }
 

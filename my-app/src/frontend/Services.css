@@ -1,3 +1,26 @@
+#firstParagraphProperties {
+    color: gray;
+    text-align: left;
+    border-style: none;
+    background: none;
+    white-space: normal;
+}
+
+#secondParagraphProperties {
+    color: gray;
+    text-align: left;
+    border-style: none;
+    background: none;
+    white-space: normal;
+}
+
+#bambinelliTestimonial {
+    white-space: normal;
+    color: gray;
+    text-align: left;
+}
+
+
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media only screen and (min-width: 320px) {
     .servicesTitleProperties {
@@ -5,138 +28,162 @@
         margin-left: 35%;
     }
 
-    .firstParagraphPosition {
-        width: 100%;
-        position: fixed;
-    }
-
-    .secondParagraphPosition {
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        position: fixed;
-    }
-
-    .firstParagraphProperties {
-        white-space: initial;
-        margin-top: -10%;
+    #firstParagraphProperties {
+        margin-top: 0;
         margin-left: 5%;
-        width: 90%;
-        text-align: center;
-        border: 2px solid grey;
-        border-radius: 5px;
-        background-color: white;
-        opacity: .50;
+        width: 90vw;
     }
 
-    .secondParagraphProperties {
-        white-space: initial;
-        margin-top: -10%;
+    #secondParagraphProperties {
+        margin-top: 5%;
         margin-left: 5%;
-        width: 90%;
-        text-align: center;
-        border: 2px solid grey;
-        border-radius: 5px;
-        background-color: white;
-        opacity: .50;
+        width: 90vw;
     }
 
     #firstTitlePosition {
-        white-space: nowrap;
-        font-size: x-large;
-        display: block;
-        margin: 15%;
+        font-size: xx-large;
+        margin-top: 10%;
+        white-space: normal;
         text-align: center;
     }
 
     #secondTitlePosition {
-        white-space: nowrap;
-        font-size: x-large;
-        display: block;
-        margin: 15%;
+        font-size: xx-large;
+        white-space: normal;
+        margin-top: 10%;
+        margin-left: 1%;
         text-align: center;
     }
 
-    #firstTitleIcon {
-        display: none;
+    #bambinelliTestimonial {
+        width: 90vw;
+        margin-top: 20%;
+        margin-left: 5%;
     }
 
-    #secondTitleIcon {
-        display: none;
+    #servicesPic {
+        width: 90vw;
+        margin-top: 3%;
+        margin-left: 5%;
+        border-radius: 25px;
+        opacity: .75;
     }
 }
 
-/* big landscape tablets, laptops, and desktops */
-@media (min-width:1025px) {
-
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:600px) {
     .servicesTitleProperties {
         margin-top: 2%;
         margin-left: -10%;
         text-align: center;
     }
 
-    p {
-        width: 40%;
-        text-align: center;
-        border: 2px solid grey;
-        border-radius: 5px;
-        background-color: white;
-        opacity: .50;
-        margin: 0 5%;
-     }
 
-    .wrap {
-        display: inline-block;
-    }
-   
-/**
-    .firstParagraphProperties {
-        margin-top: 2%;
-        margin-left: 5%;
-        width: 90vh;
-        text-align: center;
-        border: 2px solid grey;
-        border-radius: 5px;
-        background-color: white;
-        opacity: .50;
+    #firstParagraphProperties {
+        margin-top: 0;
+        margin-left: 1%;
+        width: 40vw;
+        text-align: left;
     }
 
-    .secondParagraphProperties {
-        margin-top: 2.2%;
-        margin-left: 54%;
-        width: 90vh;
-        text-align: center;
-        border: 2px solid grey;
-        border-radius: 5px;
-        background-color: white;
-        opacity: .50;
+    #secondParagraphProperties {
+        margin-top: -15%;
+        margin-left: 1%;
+        width: 40vw;
+        text-align: left;
     }
-*/
+
     #firstTitlePosition {
-        white-space: nowrap;
-        display: block;
-        margin-top: 7%;
-        margin-left: -30%;
+        font-size: xx-large;
+        margin-top: -25%;
+        white-space: normal;
+        text-align: left;
     }
 
     #secondTitlePosition {
-        white-space: nowrap;
-        display: block;
-        margin-top: -17%;
-        margin-left: 65%;
+        font-size: xx-large;
+        white-space: normal;
+        margin-top: 5%;
+        margin-left: 1%;
+        text-align: left;
     }
 
     #firstTitleIcon {
-        white-space: nowrap;
-        display: inline-block;
-        display: block;
-        margin-top: -17%;
-        margin-left: 35%;
+        margin-top: 50%;
+        margin-left: 50%;
     }
 
     #secondTitleIcon {
-        display: block;
-        margin-top: -17.5%;
-        margin-left: 80%;
+        margin-top: 50%;
+        margin-left: 50%;
+    }
+
+    #bambinelliTestimonial {
+        width: 40vw;
+        margin-top: 5%;
+        margin-left: 1%;
+    }
+
+    #servicesPic {
+        margin-top: 3%;
+        margin-left: 50%;
+        width: 45vw;
+        border-radius: 25px;
+        opacity: .75;
     }
 }
+
+ /* big landscape tablets, laptops, and desktops */
+ @media (min-width:1025px) {
+
+        .servicesTitleProperties {
+            margin-top: 2%;
+            margin-left: -10%;
+            text-align: center;
+        }
+
+
+        #firstParagraphProperties {
+            margin-top: 0%;
+            margin-left: 1%;
+            width: 40vw;
+            text-align: left;
+        }
+
+        #secondParagraphProperties {
+            margin-top:  0%;
+            margin-left: 1%;
+            width: 40vw;
+            text-align: left;
+        }
+
+        #firstTitlePosition {
+            font-size: xx-large;
+            margin-top: -25%;
+            margin-left: 1%;
+            white-space: normal;
+            text-align: left;
+        }
+
+        #secondTitlePosition {
+            font-size: xx-large;
+            white-space: normal;
+            margin-top: 5%;
+            margin-left: 1%;
+            text-align: left;
+        }
+
+        #bambinelliTestimonial {
+            width: 40vw;
+            margin-top: 5%;
+            margin-left: 1%;
+        }
+
+        #servicesPic {
+            margin-top: 3%;
+            margin-left: 50%;
+            width: 45vw;
+            border-radius: 25px;
+            opacity: .75;
+        }
+    }
