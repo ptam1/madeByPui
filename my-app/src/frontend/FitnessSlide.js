@@ -43,6 +43,17 @@ export default class BambinellisSlide extends Component {
                         </Carousel.Caption>
                     </Carousel.Item>
 
+                    <Carousel.Item>
+                        <img
+                            class="img-fluid"
+                            src="/After - Fitness Product Page.JPG"
+                            alt="After - Fitness Product Page"
+                        />
+                        <Carousel.Caption class="carousel-caption">
+                            <p><b>After - Product Page</b></p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
 
                     <Carousel.Item>
                         <img
@@ -63,6 +74,17 @@ export default class BambinellisSlide extends Component {
                         />
                         <Carousel.Caption class="carousel-caption">
                             <p><b>After - Footer</b></p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                        <img
+                            class="img-fluid"
+                            src="/Fitness Membership Login.JPG"
+                            alt="Fitness Membership Login"
+                        />
+                        <Carousel.Caption class="carousel-caption">
+                            <p><b>Installed Memebership Login Portal App</b></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

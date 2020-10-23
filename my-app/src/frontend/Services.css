@@ -16,16 +16,23 @@
 
 #bambinelliTestimonial {
     white-space: normal;
-    color: gray;
     text-align: left;
 }
+
+#mariascleaningserviceTestimonial {
+    white-space: normal;
+    text-align: left;
+}
+
+
 
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media only screen and (min-width: 320px) {
     .servicesTitleProperties {
         margin-top: 15%;
-        margin-left: 35%;
+        margin-left: 5%;
+        text-align: center;
     }
 
     #firstParagraphProperties {
@@ -61,41 +68,102 @@
         margin-left: 5%;
     }
 
+    #mariascleaningserviceTestimonial {
+        font-size: large;
+        width: 90vw;
+        margin-top: 20%;
+        margin-left: 5%;
+    }
+
     #servicesPic {
         width: 90vw;
-        margin-top: 3%;
+        margin-top: 10%;
         margin-left: 5%;
         border-radius: 25px;
-        opacity: .75;
+        opacity: 1;
     }
 }
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 @media (min-width:600px) {
     .servicesTitleProperties {
-        margin-top: 2%;
-        margin-left: -10%;
+        margin-top: 15%;
+        margin-left: 0%;
         text-align: center;
     }
 
 
+    #firstTitlePosition {
+        font-size: xx-large;
+        margin-top: 10%;
+        white-space: normal;
+        text-align: center;
+    }
+
+    #secondTitlePosition {
+        font-size: xx-large;
+        margin-top:  10%;
+        white-space: normal;
+        text-align: center;
+    }
+
     #firstParagraphProperties {
-        margin-top: 0;
-        margin-left: 1%;
-        width: 40vw;
+        margin-top: 0%;
+        margin-left: 20%;
+        width: 60vw;
         text-align: left;
     }
 
     #secondParagraphProperties {
-        margin-top: -15%;
+        margin-top: 0%;
+        margin-left: 20%;
+        width: 60vw;
+        text-align: left;
+    }
+
+    #bambinelliTestimonial {
+        font-size: large;
+        width: 60vw;
+        margin-top: 10%;
+        margin-left: 20%; 
+       
+    }
+
+    #servicesPic {
+        display: none;
+    }
+}
+
+ /* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+
+    .servicesTitleProperties {
+        margin-top: 2%;
+        margin-left: -10%;
+        text-align: center;
+        position: relative;
+    }
+
+
+    #firstParagraphProperties {
+        margin-top: 0%;
         margin-left: 1%;
         width: 40vw;
         text-align: left;
+        position: absolute;
+    }
+
+    #secondParagraphProperties {
+        margin-top: 0%;
+        margin-left: 1%;
+        width: 40vw;
+        text-align: left;        
     }
 
     #firstTitlePosition {
         font-size: xx-large;
-        margin-top: -25%;
+        margin-top: 0%;
+        margin-left: 1%;
         white-space: normal;
         text-align: left;
     }
@@ -103,87 +171,26 @@
     #secondTitlePosition {
         font-size: xx-large;
         white-space: normal;
-        margin-top: 5%;
+        margin-top: 10%;
         margin-left: 1%;
         text-align: left;
     }
 
-    #firstTitleIcon {
-        margin-top: 50%;
-        margin-left: 50%;
-    }
-
-    #secondTitleIcon {
-        margin-top: 50%;
-        margin-left: 50%;
-    }
-
     #bambinelliTestimonial {
+        font-size: large;
         width: 40vw;
         margin-top: 5%;
         margin-left: 1%;
+        position: relative;
     }
 
     #servicesPic {
-        margin-top: 3%;
+        margin-top: 0%;
         margin-left: 50%;
         width: 45vw;
         border-radius: 25px;
-        opacity: .75;
+        opacity: 1;
+        position: absolute;
+        display: inline;
     }
-}
-
- /* big landscape tablets, laptops, and desktops */
- @media (min-width:1025px) {
-
-        .servicesTitleProperties {
-            margin-top: 2%;
-            margin-left: -10%;
-            text-align: center;
-        }
-
-
-        #firstParagraphProperties {
-            margin-top: 0%;
-            margin-left: 1%;
-            width: 40vw;
-            text-align: left;
-        }
-
-        #secondParagraphProperties {
-            margin-top:  0%;
-            margin-left: 1%;
-            width: 40vw;
-            text-align: left;
-        }
-
-        #firstTitlePosition {
-            font-size: xx-large;
-            margin-top: -25%;
-            margin-left: 1%;
-            white-space: normal;
-            text-align: left;
-        }
-
-        #secondTitlePosition {
-            font-size: xx-large;
-            white-space: normal;
-            margin-top: 5%;
-            margin-left: 1%;
-            text-align: left;
-        }
-
-        #bambinelliTestimonial {
-            width: 40vw;
-            margin-top: 5%;
-            margin-left: 1%;
-        }
-
-        #servicesPic {
-            margin-top: 3%;
-            margin-left: 50%;
-            width: 45vw;
-            border-radius: 25px;
-            opacity: .75;
-        }
-    }
+ }

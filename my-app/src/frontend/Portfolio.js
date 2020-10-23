@@ -140,6 +140,7 @@ class Portfolio extends Component {
                     <Modal.Header closeButton>
                         <Modal.Title id="contained-modal-title-vcenter">
                             <p> Website Redesign </p>
+                            <p> <a href="https://bambinellis.com/">Visit Website</a> </p>
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
@@ -157,11 +158,12 @@ class Portfolio extends Component {
                     aria-labelledby="contained-modal-title-vcenter"
                     centered
                 >
-                    <Modal.Header closeButton>
-                        <Modal.Title id="contained-modal-title-vcenter">
-                            <p> Website Redesign </p>
-                        </Modal.Title>
-                    </Modal.Header>
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    <p> Website Redesign </p>
+                    <p> <a href="https://sites.google.com/mariascleaningatl.com/atl/home?authuser=1">Visit Website</a> </p>
+                </Modal.Title>
+            </Modal.Header>
                     <Modal.Body>
                         <MariasCleaningServiceSlide display />
                     </Modal.Body>
@@ -180,6 +182,7 @@ class Portfolio extends Component {
                     <Modal.Header closeButton>
                         <Modal.Title id="contained-modal-title-vcenter">
                             <p> Shopify - Website Additional Features Update </p>
+                            <p> <a href="https://scoopbabefitness.com/">Visit Website</a> </p>
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
