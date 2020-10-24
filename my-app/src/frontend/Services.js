@@ -13,12 +13,13 @@ export default class Services extends Component {
                 <NavBar displaytext=" " />
                 <div id="backgroundColor">
                     <Row>
-                       <Col>
+                        <Col>
                     <div class="servicesTitleProperties">
                        <h1> SERVICES </h1>
                     </div>
                         </Col>
                     </Row> 
+                    <div id="servicesWrapper">
 
                     <h1 id="firstTitlePosition"> WEB DEVELOPMENT </h1>
                     <p id="firstParagraphProperties">
@@ -36,15 +37,21 @@ export default class Services extends Component {
                         working with local Atlanta businesses in redesigning their existing websites.
                         </b>
                     </p>
-
+                      
+                  
+                    <h2 id="testimonialTitle"> Testimonials </h2>
                     <p id="bambinelliTestimonial">
-                        <b>
-                            "Pui was awesome from start to finish. She truly exceeded my expectations in regards to my website! I couldn't have asked for more. Her penchant to detail, her wisdom in the field, it was truly an amazing experience working with her. I wish I had more websites for her to design. My website looks incredible, it's user friendly, and has a gorgeous aesthetic. I am 1000% pleased with her work! Thanks Pui!
-                        </b>
-                        <br /> - Taiwo
-                        <br /> Marketing Director, Bambinelli's
+                            "Pui was awesome from start to finish. She truly exceeded my expectations in regards to my website! I couldn't have asked for more. Her penchant to detail, her wisdom in the field, it was truly an amazing experience working with her. I wish I had more websites for her to design. My website looks incredible, it's user friendly, and has a gorgeous aesthetic. I am 1000% pleased with her work! Thanks Pui!"
+                        <br /> <span> - Taiwo </span>
+                        <br /> <span> Marketing Director, Bambinelli's </span>
                     </p>
-                                  
+
+                    <p id="mariascleaningserviceTestimonial">
+                            "With Pui's help, we were able to increase the functionality of our website. It looks professional and very easy to navigate. She handled things very efficiently and was available for any questions we have. We couldn't be more happier with our new website."
+                        <br /> <span> - Cristian </span>
+                        <br /> <span> Manager, Maria's Cleaning Service </span>
+                    </p> 
+                </div>
                 </div>
                 </Container>   
                

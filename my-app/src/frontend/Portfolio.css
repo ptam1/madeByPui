@@ -1,5 +1,4 @@
 .titleProperties {
-	margin-top: 13vh;
 	text-align: center;
 }
 
@@ -130,10 +129,25 @@
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media only screen and (min-width: 320px) {
+    .titleProperties {
+		margin-top: 15%;
+    }
+
+	#portfolioWrapper {
+		text-align: center;
+	}
+
 	.row {
-		margin-left: 5%;
-		margin-top: 10%;
-		width: 90%;
+		margin: 5% auto;
+		width: 100%;
+	}
+
+	.col {
+		margin: 10% auto;
+	}
+
+	.hovereffect {
+		width: 100%;
 	}
 }
 
@@ -143,12 +157,22 @@
 		margin-top: 90%;
 	}
 
-	.row {
-		margin-left: 10%;
-		margin-top: 5%;
-		width: 75%;
+	#portfolioWrapper {
+	    text-align: center;
 	}
 
+	.row {
+		margin: 5% auto;
+		width: 100%;
+	}
+
+	.col {
+		margin: 10% auto;
+	}
+
+	.hovereffect {
+		width: 75%;
+	}
 }
 
 
@@ -158,10 +182,21 @@
 		margin-top: 90%;
 	}
 
+	#portfolioWrapper {
+		text-align: center;
+	}
+
 	.row {
-		margin-left: 10%;
-		margin-top: 5%;
-		width: 90%;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.col {
+		margin: 5% auto;
+	}
+
+	.hovereffect {
+		width: 100%;
 	}
 }
 

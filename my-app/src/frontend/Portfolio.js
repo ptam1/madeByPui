@@ -98,6 +98,7 @@ class Portfolio extends Component {
                             <h1> Portfolio </h1>
                         </div>
 
+                        <div id="portfolioWrapper">
                         <Row class="row" lg={4}>
                             <Col>
                                 <div class="hovereffect" onClick={() => this.handleShow('Bambinellis')}>
@@ -119,13 +120,14 @@ class Portfolio extends Component {
 
                             <Col>
                                 <div class="hovereffect" onClick={() => this.handleShow('FitnessSlide')}>
-                                    <img class="img-responsive" src="Before - Fitness Product Page.JPG" alt="" />
+                                    <img class="img-responsive" src="After - Fitness Product Page.JPG" alt="" />
                                     <div class="overlay">
                                         <h2>Scoop Babe Fitness</h2>
                                     </div>
                                 </div>
                             </Col>
-                        </Row>
+                            </Row>
+                    </div>
                     </div>
                 </Container>
 

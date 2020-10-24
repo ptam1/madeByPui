@@ -15,35 +15,45 @@
 }
 
 #bambinelliTestimonial {
+    font-size: 20px;
     white-space: normal;
     text-align: left;
 }
 
 #mariascleaningserviceTestimonial {
+    font-size: 20px;
     white-space: normal;
     text-align: left;
 }
 
+#testimonialTitle {
+    white-space: nowrap;
+    text-decoration: underline;
+}
 
-
+span {
+    font-size: 17px;
+}
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media only screen and (min-width: 320px) {
     .servicesTitleProperties {
-        margin-top: 15%;
-        margin-left: 5%;
+        margin-top: 30%;
+        text-align: center;
+    }
+
+    #servicesWrapper {
+        margin-top: 0%;
         text-align: center;
     }
 
     #firstParagraphProperties {
-        margin-top: 0;
-        margin-left: 5%;
+        margin: 5% auto;
         width: 90vw;
     }
 
     #secondParagraphProperties {
-        margin-top: 5%;
-        margin-left: 5%;
+        margin: 5% auto;
         width: 90vw;
     }
 
@@ -51,34 +61,32 @@
         font-size: xx-large;
         margin-top: 10%;
         white-space: normal;
-        text-align: center;
     }
 
     #secondTitlePosition {
         font-size: xx-large;
         white-space: normal;
         margin-top: 10%;
-        margin-left: 1%;
         text-align: center;
+    }
+
+    #testimonialTitle {   
+        margin-top: 10%;   
     }
 
     #bambinelliTestimonial {
         width: 90vw;
-        margin-top: 20%;
-        margin-left: 5%;
+        margin: 5% auto;
     }
 
     #mariascleaningserviceTestimonial {
-        font-size: large;
         width: 90vw;
-        margin-top: 20%;
-        margin-left: 5%;
+        margin: 15% auto;
     }
 
     #servicesPic {
         width: 90vw;
-        margin-top: 10%;
-        margin-left: 5%;
+        margin: 10% auto;
         border-radius: 25px;
         opacity: 1;
     }
@@ -88,45 +96,44 @@
 @media (min-width:600px) {
     .servicesTitleProperties {
         margin-top: 15%;
-        margin-left: 0%;
         text-align: center;
     }
 
+    #servicesWrapper {
+        margin-top: 0%;
+        text-align: center;
+    }
 
     #firstTitlePosition {
         font-size: xx-large;
         margin-top: 10%;
         white-space: normal;
-        text-align: center;
     }
 
     #secondTitlePosition {
         font-size: xx-large;
         margin-top:  10%;
         white-space: normal;
-        text-align: center;
     }
 
     #firstParagraphProperties {
-        margin-top: 0%;
-        margin-left: 20%;
+        margin: 3% auto;
         width: 60vw;
-        text-align: left;
     }
 
     #secondParagraphProperties {
-        margin-top: 0%;
-        margin-left: 20%;
+        margin: 3% auto;
         width: 60vw;
-        text-align: left;
     }
 
     #bambinelliTestimonial {
-        font-size: large;
         width: 60vw;
-        margin-top: 10%;
-        margin-left: 20%; 
-       
+        margin: 3% auto;       
+    }
+
+    #mariascleaningserviceTestimonial {
+        width: 60vw;
+        margin: 10% auto;
     }
 
     #servicesPic {
@@ -144,13 +151,16 @@
         position: relative;
     }
 
+    #servicesWrapper {
+        margin-top: 0%;
+    }
 
     #firstParagraphProperties {
         margin-top: 0%;
         margin-left: 1%;
         width: 40vw;
         text-align: left;
-        position: absolute;
+        position: relative
     }
 
     #secondParagraphProperties {
@@ -171,26 +181,41 @@
     #secondTitlePosition {
         font-size: xx-large;
         white-space: normal;
-        margin-top: 10%;
+        margin-top: -25%;
         margin-left: 1%;
         text-align: left;
     }
 
-    #bambinelliTestimonial {
-        font-size: large;
-        width: 40vw;
+    #testimonialTitle {
         margin-top: 5%;
-        margin-left: 1%;
-        position: relative;
+        margin-left: -88%;
+    }
+
+    #bambinelliTestimonial {
+        width: 40%;
+        height: auto;
+        margin-top: 1%;
+        margin-left: -58%;
+        position: relative;    
+        display: inline-block;
+    }
+
+    #mariascleaningserviceTestimonial {
+        width: 35%;
+        height: auto;
+        margin-top: 1%;
+        margin-left: 15%;
+        position: absolute;
+        display: inline-block;
     }
 
     #servicesPic {
-        margin-top: 0%;
-        margin-left: 50%;
+        margin-top: -9%;
+        margin-left: 40%;
         width: 45vw;
         border-radius: 25px;
         opacity: 1;
-        position: absolute;
+        position: relative;
         display: inline;
     }
  }
