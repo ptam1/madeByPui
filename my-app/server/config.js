@@ -4,7 +4,7 @@ dotenv.config();
 
 var transporter = nodemailer.createTransport({
     host: 'box5389.bluehost.com',
-    port: 25,
+    port: 465,
     secure: true,
     service: 'gmail',
     auth: {
