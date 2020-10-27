@@ -34,7 +34,7 @@
 
         #buttonProperties {
             white-space: nowrap;
-            margin: 7% auto;
+            margin: 10% auto;
             color: white;
             background: #B0C4DE;
             border: none;
@@ -97,14 +97,14 @@
 
         .paragraphProperties {
             white-space: normal;
-            margin-top: -15%;
+            margin-top: -25%;
             margin-left: 50%;
             width: 45%;        
         }
 
         #buttonProperties {
-            margin-top: 1%;
-            margin-left: 40%;
+            margin-top: 8%;
+            margin-left: 45%;
             white-space: nowrap;
             color: white;
             background: #B0C4DE;

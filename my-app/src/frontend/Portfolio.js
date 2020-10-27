@@ -98,36 +98,35 @@ class Portfolio extends Component {
                             <h1> Portfolio </h1>
                         </div>
 
-                        <div id="portfolioWrapper">
-                        <Row class="row" lg={4}>
+                       
+                        <Row lg={4}>
                             <Col>
-                                <div class="hovereffect" onClick={() => this.handleShow('Bambinellis')}>
-                                    <img class="img-responsive" src="Bambinellis portfolio.JPG" alt="" />
-                                    <div class="overlay">
+                                <div className="hovereffect" onClick={() => this.handleShow('Bambinellis')}>
+                                    <img className="img-responsive" src="Bambinellis portfolio.JPG" alt="" />
+                                    <div className="overlay">
                                         <h2>Bambinelli's</h2>
                                     </div>
                                 </div>
                             </Col>
 
                             <Col>
-                                <div class="hovereffect" onClick={() => this.handleShow('mariasCleaning')}>
-                                    <img class="img-responsive" src="After Homepage Portfolio.JPG" alt="" />
-                                    <div class="overlay">
+                                <div className="hovereffect" onClick={() => this.handleShow('mariasCleaning')}>
+                                    <img className="img-responsive" src="After Homepage Portfolio.JPG" alt="" />
+                                    <div className="overlay">
                                         <h2>Maria's Cleaning Service</h2>
                                     </div>
                                 </div>
                             </Col>
 
                             <Col>
-                                <div class="hovereffect" onClick={() => this.handleShow('FitnessSlide')}>
-                                    <img class="img-responsive" src="After - Fitness Product Page.JPG" alt="" />
-                                    <div class="overlay">
+                                <div className="hovereffect" onClick={() => this.handleShow('FitnessSlide')}>
+                                    <img className="img-responsive" src="After - Fitness Product Page.JPG" alt="" />
+                                    <div className="overlay">
                                         <h2>Scoop Babe Fitness</h2>
                                     </div>
                                 </div>
                             </Col>
                             </Row>
-                    </div>
                     </div>
                 </Container>
 

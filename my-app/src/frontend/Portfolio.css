@@ -147,7 +147,7 @@
 	}
 
 	.hovereffect {
-		width: 100%;
+		width: 99%;
 	}
 }
 
@@ -157,16 +157,14 @@
 		margin-top: 90%;
 	}
 
-	#portfolioWrapper {
-	    text-align: center;
-	}
-
 	.row {
-		margin: 5% auto;
 		width: 100%;
 	}
 
 	.col {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		margin: 10% auto;
 	}
 
@@ -179,7 +177,7 @@
 /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) {
 	.titleProperties {
-		margin-top: 90%;
+		margin-top: 2%;
 	}
 
 	#portfolioWrapper {
@@ -199,55 +197,3 @@
 		width: 100%;
 	}
 }
-
-
-
-	/*
-.img-container img {
-	display: block
-}
-.img-container {
-	position: relative;
-	display: inline-block;
-}
-
-.img-container .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	transition: opacity 500ms ease-in-out;
-}
-
-.img-container:hover .overlay {
-	opacity: 1;
-}
-
-.img-container img:hover .image {
-	opacity: .5;
-}
-.overlay span {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	color: black;  
-	font-size: 20px;
-	text-align: center;
-}
-
-<div className="clientText" >
-<b > <a href= {
-	'https://sites.google.com/mariascleaningatl.com/atl/home'
-}
-
-> Maria's Cleaning Service</a></b>
-<br / > <b > Website Redesign </b >
-</div >
-
-<MariasCleaningServiceSlide display/ >
-*/
-
-

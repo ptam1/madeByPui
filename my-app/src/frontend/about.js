@@ -16,9 +16,9 @@ export default class About extends Component {
                     <h1 id="titleProperties"> ABOUT THE FREELANCE DEVELOPER </h1>
 
                     <div id="aboutWrapper">
-                    <img class="imageProperties" src={"/Headshot.jpg"} alt={"image"} />
+                    <img className="imageProperties" src={"/Headshot.jpg"} alt={"image"} />
 
-                    <p class="paragraphProperties">
+                    <p className="paragraphProperties">
                     <b> Hi! My name is Pui! 
                         I am a freelance developer based in Atlanta, GA with a Master's degree in Software Engineering 
                         with experience in software quality assurance. I have experience working with local Atlanta businesses in setting up and redesigning their website. I launched my own website services, because I want to help people fulfill their dreams by creating their perfect website or software product on an affordable budget. If you would like to know more about what I can do for you or want a quote, let's have a chat! 

@@ -162,7 +162,7 @@ const ContactForm = () => {
         });
 
         return (
-            <div class="row justify-content-center">
+            <div className="row justify-content-center">
                 <Formik
                     validationSchema={formSchema}
                     initialValues={{
@@ -256,7 +256,7 @@ const ContactForm = () => {
                                             Please include as much detail as possible, including budget, features, and                  project length.
                                         </Form.Text>
                                     </Form.Group>
-                                    <div class="text-center">
+                                    <div className="text-center">
                                         <Button id="button" variant="success" type="submit">
                                             <b>Submit</b>
                                         </Button>

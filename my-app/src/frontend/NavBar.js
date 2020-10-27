@@ -16,10 +16,10 @@ export default class Homepage extends Component {
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
 
                 <Navbar.Brand id="navHeader1" href="/"><b>madeByPUI</b></Navbar.Brand>
-                <Nav class="mr-auto">
+                {/* <Nav class="mr-auto">
                     <Navbar.Brand id = "navHeader2" href="/"><b>Freelance Developer</b></Navbar.Brand>
                 </Nav>
- 
+                */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav"> 
                     <Nav className="ml-auto">

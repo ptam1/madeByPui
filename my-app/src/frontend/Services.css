@@ -95,7 +95,7 @@ span {
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 @media (min-width:600px) {
     .servicesTitleProperties {
-        margin-top: 15%;
+        margin-top: 10%;
         text-align: center;
     }
 
@@ -106,7 +106,7 @@ span {
 
     #firstTitlePosition {
         font-size: xx-large;
-        margin-top: 10%;
+        margin-top: 5%;
         white-space: normal;
     }
 
@@ -146,7 +146,6 @@ span {
 
     .servicesTitleProperties {
         margin-top: 2%;
-        margin-left: -10%;
         text-align: center;
         position: relative;
     }
