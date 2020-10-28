@@ -120,6 +120,7 @@ const ContactForm = () => {
                     success: false,
                     message: 'Something went wrong. Please resend your form.'
                 });
+                console.log(message);
             });
     }
 

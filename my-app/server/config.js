@@ -13,4 +13,11 @@ var transporter = nodemailer.createTransport({
     }
 });
 
+transporter.verify((err, success) => {
+    if (err) console.error(err);
+    console.log('Your config is correct');
+});
+
+console.log(transporter.options.host);
+
 module.exports = transporter;
