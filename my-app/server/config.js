@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 var transporter = nodemailer.createTransport({
+    name: 'www.madebypui.com',
     host: 'smtp.gmail.com',
     port: 587,
     secure: false,
