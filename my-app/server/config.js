@@ -2,8 +2,8 @@ const nodemailer = require('nodemailer');
 const dotenv = require('dotenv');
 dotenv.config();
 
-var transporter = nodemailer.createTransport({
-    name: 'www.madebypui.com',
+var transporter = nodemailer.createTransport(smtpTransport({
+    service: 'gmail',
     host: 'smtp.gmail.com',
     port: 587,
     secure: false,
@@ -13,7 +13,7 @@ var transporter = nodemailer.createTransport({
     pass: process.env.password  //gmail password
 
     }
-});
+}));
 
 transporter.verify((err, success) => {
     if (err) console.error(err);
