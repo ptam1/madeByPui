@@ -131,25 +131,6 @@ const ContactForm = () => {
                 [name]: value
             });
     };
-
-    function showAlert() {
-        //if (result && result.success) {
-            return (
-            <div>
-            <Alert show={true} fade="true" variant="success">
-                <p> result.message </p>
-            </Alert>
-            </div>    
-        )}
-     /*   else {
-            return (
-            <div>
-            <Alert show={true} fade="true"  variant="danger">
-                <p> result.message </p>
-            </Alert>
-            </div>
-        )} 
-    } */
        
 
         const formSchema = yup.object({
