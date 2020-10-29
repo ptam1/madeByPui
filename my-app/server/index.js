@@ -8,6 +8,8 @@ dotenv.config();
 const buildPath = path.join(__dirname, '..', 'build');
 app.use(express.json());
 
+const PORT = process.env.PORT || 3030;
+
 //Route Specifications
 app.use(express.static(buildPath));
 app.use('/about', express.static(buildPath));
@@ -56,6 +58,6 @@ app.post('/send', (req, res) => {
     }
 });
 
-app.listen(3030, () => {
-    console.log('server start on port 3030');
+app.listen(PORT, () => {
+    console.log('Server is listening on port' + ' ' + PORT);
 });
